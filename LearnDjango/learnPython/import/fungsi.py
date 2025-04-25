@@ -1,0 +1,1 @@
+tambah = lambda a,b : a + b

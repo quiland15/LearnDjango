@@ -1,0 +1,1 @@
+gaya = lambda m,a:m*a
