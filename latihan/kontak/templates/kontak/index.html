@@ -1,0 +1,9 @@
+{% extends "base.html"%}
+{% load static %}
+
+{% block content%}
+<img src="{% static banner %}" alt='banner' width='100%'>
+<h1>Welcome in {{title}}</h1>
+<h3>Developer : {{developer}}</h3>
+{% include 'kontak/snippets/nav.html'%}
+{% endblock content%}

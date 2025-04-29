@@ -1,0 +1,13 @@
+{% extends 'base.html'%}
+{% load static %}
+
+{% block headTitle %}
+{{title}}
+{% endblock headTitle %}
+
+{% block content %}
+<img src="{% static banner %}" alt='banner' width='100%'>
+<h1>Welcome in {{title}} Website</h1>
+<span>Developer : {{developer}}</span>
+{% include 'snippets/nav.html'%}
+{% endblock content %}
